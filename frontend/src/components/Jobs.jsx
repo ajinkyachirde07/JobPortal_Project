@@ -4,6 +4,7 @@ import FilterCard from './FilterCard'
 import Job from './Job';
 import { useSelector } from 'react-redux';
 import { motion } from 'framer-motion';
+import Footer from './shared/Footer';
 
 const Jobs = () => {
     const { allJobs, searchedQuery } = useSelector(store => store.job);
@@ -57,6 +58,7 @@ const Jobs = () => {
                     )}
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }

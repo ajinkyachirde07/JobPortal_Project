@@ -11,6 +11,7 @@ import { toast } from 'sonner'
 import { useDispatch, useSelector } from 'react-redux'
 import { setLoading, setUser } from '@/redux/authSlice'
 import { Loader2 } from 'lucide-react'
+import Footer from '../shared/Footer'
 
 const Login = () => {
   const [input, setInput] = useState({
@@ -139,6 +140,7 @@ const Login = () => {
           </p>
         </form>
       </div>
+      <Footer/>
     </div>
   )
 }

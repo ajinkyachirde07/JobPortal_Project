@@ -142,7 +142,7 @@ const JobDescription = () => {
               Apply Link
             </Button>
 
-            <div className="mt-6">
+            {/* <div className="mt-6">
               <strong>
                 Join our WhatsApp Channel{" "}
                 <a
@@ -153,7 +153,7 @@ const JobDescription = () => {
                   <mark>Click Here</mark>
                 </a>
               </strong>
-            </div>
+            </div> */}
 
             <h3 className="font-bold mt-6">
               Posted Date:{" "}
